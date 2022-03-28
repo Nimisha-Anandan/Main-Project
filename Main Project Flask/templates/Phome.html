@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABC Bank</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="static\image\Lark20220310-225602.png">
+<!-- Input Form -->
+<div  class="input form">
+  <form action="{{url_for('predict')}}"method="post" id="input head">
+    <h1 id="heading" >Credit Card Customers Churn Prediction System  </h1>
+    <br>
+    <h3 id="input">Enter the Customer Age:
+    <input type="int" name="Age" placeholder="Enter your age in yrs"></h3>
+    
+    <h3 id="input">Enter total relationship count:
+    <input type="int" name="Total Relationship Count" placeholder="Enter Total Relationship Count"></h3>
+    
+    <h3 id="input">Enter Months Inactive 12 months:
+    <input type="int" name="Months Inactive 12 months" placeholder="Enter Months_Inactive_12_mon"></h3>
+    
+    <h3 id="input">Enter Credit Limit:
+    <input type="float" name="Credit Limit" placeholder="Enter Credit Limit"></h3>
+    
+    <h3 id="input">Enter Total Revolving Balance:
+    <input type="int" name="Total Revolving Balance" placeholder="Enter Total_Revolving_Bal"></h3>
+    
+    <h3 id="input">Enter Total Amount Change from Q4 to Q1:
+    <input type="float" name="Total_Amt_Chng_Q4_Q1" placeholder="Enter Total_Amt_Chng_Q4_Q1"></h3>
+    
+    <h3 id="input">Enter Total Transaction Count:
+    <input type="int" name="Total_Trans_Ct" placeholder="Enter Total_Trans_Ct"></h3>
+    
+    <h3 id="input">Enter Total count change from Q4 to Q1:
+    <input type="float" name="Total_Ct_Chng_Q4_Q1" placeholder="Enter Total_Ct_Chng_Q4_Q1"></h3>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+ 
+</div>
+   
+</body>
+</html>
